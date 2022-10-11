@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "template"
+name = "fullnamer"
 version = "0.1.0"
 description = ""
 authors = ["cashmere53 <15913755+cashmere53@users.noreply.github.com>"]
@@ -20,7 +20,7 @@ flake8-bugbear = "^22.9.23"
 
 
 [tool.poetry.scripts]
-tmp = "template.__main__:main"
+tmp = "fullnamer.__main__:main"
 
 
 [build-system]

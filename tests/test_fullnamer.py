@@ -4,7 +4,7 @@ from pathlib import Path
 from re import Match, fullmatch
 from typing import Optional
 
-from template import __version__
+from fullnamer import __version__
 
 
 def test_version() -> None:

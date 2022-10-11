@@ -16,4 +16,8 @@
             "source.organizeImports": true,
         },
     },
+    "cSpell.words": [
+        "Fullname",
+        "fullnamer"
+    ],
 }
