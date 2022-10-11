@@ -1,0 +1,19 @@
+{
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": ".venv/Scripts/black",
+    "python.formatting.blackArgs": [],
+    "python.linting.lintOnSave": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": ".venv/Sctipts/flake8",
+    "python.linting.flake8Args": [],
+    "python.linting.mypyEnabled": true,
+    "python.linting.mypyPath": ".venv/Scripts/mypy",
+    "python.linting.mypyArgs": [],
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+        },
+    },
+}
