@@ -20,7 +20,7 @@ flake8-bugbear = "^22.9.23"
 
 
 [tool.poetry.scripts]
-tmp = "fullnamer.__main__:main"
+fullnamer = "fullnamer.__main__:main"
 
 
 [build-system]
