@@ -3,6 +3,8 @@
 from pathlib import Path
 from typing import Sequence
 
+from loguru import logger
+
 PathStr = Path | str
 
 
@@ -25,7 +27,7 @@ def resolve_single(path: PathStr, check_exists: bool) -> Path:
 
     resolved_path: Path = inner_path.resolve()
 
-    print(f"{check_exists=}, {resolved_path.exists()=}")
+    logger.debug(f"{check_exists=}, {resolved_path.exists()=}")
     if check_exists and not resolved_path.exists():
         raise FileNotFoundError(f"input file is not found. {resolved_path}")
 
