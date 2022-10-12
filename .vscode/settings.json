@@ -17,8 +17,10 @@
         },
     },
     "cSpell.words": [
+        "commandline",
         "fspath",
         "Fullname",
-        "fullnamer"
+        "fullnamer",
+        "loguru"
     ],
 }
